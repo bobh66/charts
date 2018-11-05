@@ -32,6 +32,12 @@ Resources: {}
  #   memory: "512Mi"
 ## Persistent volume size
 
+## securityContext configuration when it is necessary to run as non-root
+# securityContext:
+#   runAsUser: 8500
+#   runAsGroup: 8500
+#   fsGroup: 8500
+
 priorityClassName: ""
 
 Storage: "1Gi"
